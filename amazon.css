@@ -2,7 +2,7 @@
     position:absolute;
     top:0px;
     height:60px;
-    width:100%;
+    width:1500px;
     background-color: #131921;
 }
 .as{
@@ -27,6 +27,11 @@ border-color: white;
 font-size: 10px;
 background-color: rgb(224, 224, 224);
 
+}
+.sall{
+    border:none;
+    border-color: rgb(224, 224, 224); 
+    background-color: rgb(224, 224, 224);
 }
 .search{
 position:absolute;
@@ -95,7 +100,7 @@ background-color: #232f3e;
 position:absolute;
 top:60px;
 height:39px;
-width: 100%;
+width: 1500px;
 }
 .all{
 background-color: #232f3e;
@@ -192,11 +197,23 @@ border-color: white;
     height:150px;
     width:140px;
 }
+.off{
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+    font-size:13px;
+    padding-left: 15px;
+}
+.list{
+    list-style-type: none;
+}
+.box{
+    margin-top:510px;
+}
 .spacel{
     position:absolute;
     margin:970px 0 0 20px;
     height:340px;
-    width:96%;
+    width: 1460px;
     overflow: auto;
     background-color: white;
     white-space: nowrap;
@@ -210,10 +227,14 @@ border-color: white;
     position: absolute;
     margin:1330px 0 0 20px;
     height:300px;
-    width:96%;
+    width:1460px;
     overflow: auto;
     background-color: white;
     white-space: nowrap;
+}
+.home{
+    width: 1000px;
+    height:297px;
 }
 .dress{
     padding:0 0 0 15px;
@@ -239,7 +260,7 @@ box-sizing: border-box;
 padding: 15px 0;
 line-height: 19px;
 font-size: 13px;
-width:100%;
+width:1500px;
 height:42px;
 }
 .top{
@@ -251,7 +272,7 @@ font-family: Arial, sans-serif;
 }
 .contact{
 background-color: #232F3E;
-width: 100%;
+width: 1500px;
 position: relative;
 padding: 50px 0 20px 0;
 box-sizing: border-box;
@@ -280,14 +301,14 @@ display: block
 }
 .amazonfooter{
 background-color: #232F3E;
-width: 100%;
+width: 1500px;
 position: relative;
 padding: 25px 0 20px 0;
 box-sizing: border-box ; 
 }
 .lastcol{
 background-color: #131A22;
-width:100%;
+width:1500px;
 padding: 30px 0;
 margin: 0px 0 0px 0;
 }  
@@ -296,4 +317,22 @@ font-size: 14px;
 font-family: Arial, sans-serif;
 color: #FFF;
 text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width:412px){
+    .spacel{
+        
+        width:1450px;
+    }
+    .imagel{
+        
+        width:1450px;
+    }
+    .home{
+        width:1000px;
+        height:297px;
+    }
 }
