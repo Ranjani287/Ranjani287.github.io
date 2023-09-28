@@ -5,6 +5,14 @@
     width:1500px;
     background-color: #131921;
 }
+.amazo{
+    height:50px;
+    width:120px;
+}
+.address{
+    width:150px;
+    height:50px;
+}
 .as{
     
 background-color: #131921;
@@ -29,6 +37,7 @@ background-color: rgb(224, 224, 224);
 
 }
 .sall{
+    
     border:none;
     border-color: rgb(224, 224, 224); 
     background-color: rgb(224, 224, 224);
@@ -197,6 +206,22 @@ border-color: white;
     height:150px;
     width:140px;
 }
+.first{
+    
+    margin:90px 0 0 0;
+    width:1500px;
+    height:250px;
+}
+.pict{
+    margin-left:15px; 
+    height:280px;
+    width:320px;
+}
+.pict1{
+    margin-left:15px; 
+    height:280px;
+    width:320px;
+}
 .off{
     text-decoration: none;
     font-family:Arial, sans-serif;
@@ -208,6 +233,15 @@ border-color: white;
 }
 .box{
     margin-top:510px;
+}
+.box1{
+    margin-top:1970px;
+}
+.box2{
+    margin-top:3070px;
+}
+.box3{
+    margin-top:3850px;
 }
 .spacel{
     position:absolute;
@@ -232,6 +266,21 @@ border-color: white;
     background-color: white;
     white-space: nowrap;
 }
+.imagel2{
+    margin-top:1650px;
+}
+.imagel3{
+    margin-top:2430px;
+}
+.imagel4{
+    margin-top:3530px;
+}
+.imagel5{
+    margin-top:4310px;
+}
+.homes{
+    height:300px;
+}
 .home{
     width: 1000px;
     height:297px;
@@ -246,9 +295,15 @@ border-color: white;
     height:200px;
     width:110px;
 }
+.imagecolms{
+   width:150px; 
+}
+.imagecolms1{
+    width: 200px;
+}
 .foot{
 position: absolute;
-width:100%;
+width:1500px;
 margin: 4650px 40px 0px 0;
 
 }
@@ -323,7 +378,161 @@ text-decoration: none;
 
 
 @media (max-width: 768px) {
+    .heads{
+        height:100px;
+    }
+    .amazo{
+        height:90px;
+        width:180px;
+    }
+    .address{
+        margin: 0 0 0 2px;
+        height:90px;
+        width:250px;
+    }
+    .alls{
+        margin-top:5px;
+        padding:20px 20px;
+        margin-left:150px;
+        
+    }
+    .sall{
+        font-size: 20px;
+    }
+    .search{
+        margin-top: 5px;
+        margin-left: 170px;
+        height:60px;
+        width:400px;
+    }
+    .logosearch{
+        margin-top: 5px;
+        left:960px;
+        height:60px ;
+        width:60px;
+    }
+
+    .subhead{
+        top:100px;
+        height:45px;
+    }
+    .boxhead{
+        font-size: 33px;
+    }
+    .off{
+        font-size: 20px;
+    }
     .signin{
         display:none;
     }
+    .learn{
+        display: none;
+    }
+    .first{
+        height:300px;
+        width:1500px;
+    }
+    .boatpad{
+        width:460px;
+        height:600px;
+    }
+    .computer{
+        margin-left: 510px;
+        width:460px;
+        height:600px;
+    }
+    .men{
+        margin-left: 1000px;
+        width:460px;
+        height:600px;
+    }
+    .box{
+        margin-top: 680px;
+    }
+    .spacel{
+        height:500px;
+        width:1440px;
+        margin-top: 1310px;
+    }
+    .imagescol{
+        height:380px;
+        width:350px;
+    }
+    .imagel{
+        width:1440px;
+        height:450px;
+        margin-top: 1840px;
+    }
+    .imagecolm{
+        height: 300px;
+        width: 200px;
+    }
+    .imagecolms{
+        width:240px;
+    }
+    .imagecolms1{
+        width:290px;
+    }
+    .dress{
+        height:300px;
+        width: 200px;
+    }
+   .imagel2{
+    display: none;
+   }
+    .linkimagetopl{
+        height: 200px;
+        width: 200px;
+    }
+    .linkimagetopr{
+        height: 200px;
+        width: 200px;
+    }
+    .linkimagebotl{
+        height: 200px;
+        width: 200px;
+    }
+    .linkimagebotr{
+        height: 200px;
+        width: 200px;
+    }
+    .pict{
+        margin-left: 30px;
+        height:400px;
+        width:400px;
+    }
+    .pict1{
+        margin-left:30px; 
+        height:360px;
+        width:400px;
+    }
+    .imagel2{
+       
+        margin-top: 2320px;
+    }
+    .box1{
+        margin-top:2320px ;
+    }
+    .imagel3{
+        
+        margin-top: 2950px;
+    }
+    .box2{
+        margin-top:3430px ;
+    }
+    .imagel4{
+        margin-top:4060px ;
+    }
+    .box3{
+        margin-top: 4540px;
+    }
+    .homes{
+        display: none;
+    }
+    .imagel5{
+        margin-top: 5170px;
+    }
+   .foot{
+    margin-top:5700px;
+   }
 }
