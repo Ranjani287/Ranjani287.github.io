@@ -323,14 +323,7 @@ text-decoration: none;
 
 
 @media (max-width: 768px) {
-    body {
-        font-size: 50px;
-    }
-    .imagel{
-        max-width: 100%;
-        height: auto;
-    }
-    .container {
-        width: 90%;
+    .signin{
+        display:none;
     }
 }
