@@ -322,17 +322,149 @@ text-decoration: none;
 
 
 
-@media screen and (max-width:412px){
-    .spacel{
+@media screen and (max-width: 768px) {
+    .heads{
+        position:absolute;
+        top:0px;
+        height:60px;
+        width:768px;
+        background-color: #131921;
+    }
+    .alls{
+        position:absolute;
+        top:15px;
+        left:350px;
+        padding:  10px 10px;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        width:20px;
+        height:20px;
+        border-color: white;
+        font-size: 10px;
+        background-color: rgb(224, 224, 224);
         
-        width:1450px;
-    }
-    .imagel{
+        }
+        .sall{
+            border:none;
+            border-color: rgb(224, 224, 224); 
+            background-color: rgb(224, 224, 224);
+        }
+        .search{
+        position:absolute;
+        top:15px;
+        left:390px;
+        padding:10px 20px;
+        width:665px;
         
-        width:1450px;
+        }
+        .search:hover{
+            border-color: #febd69;
+        }
+        .logosearch{
+        position:absolute;
+        top:15px;
+        left:1050px;
+        background-color: #febd69;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+        }
+        .logosearch:hover{
+        background-color: #fbad46;
+        }
+        .lang{
+        background-color: #131921;
+        position: absolute;
+        top:5px;
+        right:310px;
+        padding: 10px;
+        
+        }
+        .lang:hover{
+        border-color: white;
+        }
+        .accounts{
+        background-color: #131921;
+        position: absolute;
+        top:5px;
+        right:190px;
+        padding: 5px;
+        }
+        .accounts:hover{
+        border-color: white;
+        }
+        .returns{
+        position:absolute;
+        top:5px;
+        right:100px;
+        background-color: #131921;
+        padding: 7.5px;
+        }
+        .returns:hover{
+        border-color: white;
+        }
+        .cart{
+        position: absolute;
+        top:5px;
+        right:5px;
+        background-color: #131921;
+        }
+        .cart:hover{
+        border-color: white;
+        }
+        .subhead{
+        background-color: #232f3e;
+        position:absolute;
+        top:60px;
+
+
+        }
+        .all{
+        background-color: #232f3e;
+        position: absolute;
+        top:4px;
+        }
+        .all:hover{
+        border-color: white;
+        }
+        .tv{
+        height:12px; 
+        }
+        .view{
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        cursor:pointer;
+        color: white;
+        padding:8px 0 0 9px;
+        margin:5px 0px 6px 70px;
+        position: absolute;
+        }
+        .pic{
+        box-sizing: border-box;
+        position: absolute;
+        top:0px;
+        right:60px;
+        }
+        .account:hover{
+        border-color: white;
+        }
+        .view:hover{
+        border-color: white;
+        }
+
+        .boatpad{
+            position: absolute;
+            margin:50px 0px 0px 20px;
+            height:440px;
+            width:350px;
+            background-color:white;
+        }
+        .boxhead{
+            padding: 0px 0 0 15px;
+            font-family: Arial, sans-serif;
+            font-size: 23px;
+            color: black;
+        }
+
+
     }
-    .home{
-        width:1000px;
-        height:297px;
-    }
-}
