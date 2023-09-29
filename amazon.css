@@ -72,6 +72,10 @@ right:310px;
 padding: 10px;
 
 }
+.langu{
+    width:60px;
+    height:30px;
+}
 .lang:hover{
 border-color: white;
 }
@@ -85,6 +89,10 @@ padding: 5px;
 .accounts:hover{
 border-color: white;
 }
+.account{
+    width: 100px;
+    height:40px;
+}
 .returns{
 position:absolute;
 top:5px;
@@ -95,6 +103,10 @@ padding: 7.5px;
 .returns:hover{
 border-color: white;
 }
+.return{
+    height:35px;
+    width:70px;
+}
 .cart{
 position: absolute;
 top:5px;
@@ -103,6 +115,10 @@ background-color: #131921;
 }
 .cart:hover{
 border-color: white;
+}
+.carts{
+    height:45px;
+    width:80px;
 }
 .subhead{
 background-color: #232f3e;
@@ -132,6 +148,7 @@ padding:8px 0 0 9px;
 margin:5px 0px 6px 70px;
 position: absolute;
 }
+
 .pic{
 box-sizing: border-box;
 position: absolute;
@@ -367,6 +384,9 @@ width:1500px;
 padding: 30px 0;
 margin: 0px 0 0px 0;
 }  
+.seen{
+    padding:0 0 0 50px;
+}
 .table{
 font-size: 14px;
 font-family: Arial, sans-serif;
@@ -405,16 +425,60 @@ text-decoration: none;
         height:60px;
         width:400px;
     }
+    .texts{
+        font-size: 25px;
+    }
     .logosearch{
         margin-top: 5px;
         left:960px;
         height:60px ;
         width:60px;
     }
+    .lang{
+        top:25px;
+        padding:1px;
+        right: 370px;
+    }
+    .langu{
+        width:100px;
+        height:50px;
+    }
+    .accounts{
+        top:10px;
+        right:220px;
+        padding: 0px;
+        
+    }
+    .account{
+        height:80px;
+        width:150px;
+    }
+    .returns{
+        top:15px;
+        right:120px;
+    }
+    .return{
+        height:50px;
+        width:80px;
+    }
+    .cart{
+        top:15px;
+        right:5px;
 
+    }
+    .carts{
+        height:55px;
+        width:100px;
+    }
     .subhead{
         top:100px;
         height:45px;
+    }
+    .kitchen{
+        display: none;
+    }
+    .first{
+        margin:140px 0 0 0;
     }
     .boxhead{
         font-size: 33px;
@@ -534,5 +598,14 @@ text-decoration: none;
     }
    .foot{
     margin-top:5700px;
+   }
+   .seen{
+    padding: 0 0 0 15px;
+   }
+   .table{
+    font-size: 16px;
+   }
+   .text{
+    font-size:16px;
    }
 }
